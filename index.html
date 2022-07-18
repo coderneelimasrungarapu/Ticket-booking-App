@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Booking Form - XYZ Airlines </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="main.css"> 
+  </head>
+  <body class = "light-theme">
+    <!-- OUR BOOKING FORM MARKUP -->
+    
+    <div class="smart-wrap">
+        <div class="smart-forms smart-container wrap-2">
+         
+          <div class="form-header header-primary">
+            <h4><i class="fa fa-calendar"></i><strong> Ticket Bookings in Minutes</strong></h4>
+          </div>
+           
+          <form method="post" action="/" id="booking-form">
+            <div class="section">
+             <!-- OUR FORM ELEMENTS WILL GO HERE -->                                               
+             <label for="guestname" class="field-label"><strong>Please enter Passenger 1 Name</strong></label>
+             <label for="guestname" class="field prepend-icon">
+               <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder="John /Jane">
+               <span class="field-icon"><i class="fa fa-user"></i></span>  
+             </label>
+           </div>
+           <p> <strong>Choose your Gender</strong></p>
+           <input type="radio" id="female" name="choose-gender" value="Female">
+           <label for="female"><strong>Female</strong></label><br>
+           <input type="radio" id="male" name="choose-gender" value="Male">
+           <label for="male"><strong>Male</strong></label><br>
+           <input type="radio" id="non-binary" name="choose-gender" value="Non Binary">
+           <label for="non-binary"><strong>Non Binary</strong></label>
+                          
+
+           <div class="section">                                             
+            <label for="guestname" class="field-label"><strong>Please enter Passenger 2 Name</strong></label>
+            <label for="guestname" class="field prepend-icon">
+              <input type="text" name="guestname" id="guestname" class="gui-input" required="" placeholder=" Doe/ Doey ">
+              <span class="field-icon"><i class="fa fa-user"></i></span>  
+            </label>
+          </div>
+
+           <p> <strong>Choose your Gender</strong></p>
+           <input type="radio" id="female" name="choose-gender" value="Female">
+           <label for="female"><strong>Female</strong></label><br>
+           <input type="radio" id="male" name="choose-gender" value="Male">
+           <label for="male"><strong>Male</strong></label><br>
+           <input type="radio" id="non-binary" name="choose-gender" value="Non Binary">
+           <label for="non-binary"><strong>Non Binary</strong></label>
+                          
+
+           <div class="frm-row">
+             <div class="section colm colm6">
+               <label for="guestemail" class="field-label"><strong>Address</strong> </label>
+               <label for="guestemail" class="field prepend-icon">
+                 <input type="email" name="guestemail" id="guestemail" class="gui-input" required="" placeholder="john@something.com">
+                 <span class="field-icon"><i class="fa fa-envelope"></i></span>  
+               </label>
+             </div>
+              
+             <div class="section colm colm6">
+               <label for="guesttelephone" class="field-label"><strong> Telephone / Mobile</strong> </label>
+               <label for="guesttelephone" class="field prepend-icon">
+                 <input type="text" name="guestelephone" id="guestelephone" class="gui-input" required="" placeholder="Telephone / Moble Number">
+                 <span class="field-icon"><i class="fa fa-phone-square"></i></span>  
+               </label>
+             </div>
+           </div>
+            
+           <div class="frm-row">
+             <div class="section colm colm6">
+               <label for="adults" class="field-label"><strong> Number of Adults</strong> </label>
+               <label for="adults" class="field prepend-icon">
+                 <input type="number" id="adults" name="adults" class="gui-input" required="" placeholder="Number of adults">
+                 <span class="field-icon"><i class="fa fa-users"></i></span>  
+               </label>
+             </div>
+              
+             <div class="section colm colm6">
+               <label for="children" class="field-label"><strong> Number of Children</strong> </label>
+               <label for="children" class="field prepend-icon">
+                 <input type="number" id="children" name="children" class="gui-input" required="" placeholder="Number of children">
+                 <span class="field-icon"><i class="fa fa-users"></i></span>  
+               </label>
+             </div>
+           </div>
+
+        </div>     
+        <div class="section colm colm6">
+          <label for="from" class="field-label"><strong> From</strong> </label>
+          <label for="from" class="field prepend-icon">
+            <input type="text" id="from" name="from" class="gui-input" required="" placeholder=" Flying From">
+            <span class="field-icon"><i class="fa fa-user"></i></span>  
+          </label>
+        </div>
+      </div>
+
+    </div>     
+    <div class="section colm colm6">
+      <label for="to" class="field-label"><strong> To</strong> </label>
+      <label for="to" class="field prepend-icon">
+        <input type="text" id="to" name="to" class="gui-input" required="" placeholder=" Flying To">
+        <span class="field-icon"><i class="fa fa-user"></i></span>  
+      </label>
+    </div>
+  </div>
+            
+           <div class="frm-row">
+             <div class="section colm colm6">
+               <label for="depart" class="field-label"><strong>Depart Date</strong></label>
+               <label for="depart" class="field prepend-icon">
+                 <input type="date" id="depart" name="depart" class="gui-input" required="" placeholder="mm/dd/yyyy">
+                 <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+               </label>
+             </div>
+              
+             <div class="section colm colm6">
+               <label for="return" class="field-label"><strong>Return Date</strong></label>
+               <label for="return" class="field prepend-icon">
+                 <input type="date" id="return" name="return" class="gui-input" required="" placeholder="mm/dd/yyyy">
+                 <span class="field-icon"><i class="fa fa-calendar"></i></span>  
+               </label>
+             </div>
+           </div>
+            
+           <div class="spacer-t20 spacer-b30">
+             <div class="tagline"><span><strong>Please answer these questions for a pleasant flight.</strong></span></div>
+           </div>
+            
+           <div class="frm-row">
+             <div class="option-group field">
+              
+               <div class="section colm colm6">
+                 <label class="switch">
+                   <input type="checkbox" name="switch1" id="switch1" value="switch1">
+                   <span class="switch-label" data-on="YES" data-off="NO"></span>
+                   <span><strong>Will you be bringing a pet?</strong></span>
+                 </label>
+               </div>
+                    
+               <div class="section colm colm6">
+                 <label class="switch">
+                   <input type="checkbox" name="switch2" id="switch2" value="switch2">
+                   <span class="switch-label" data-on="YES" data-off="NO"></span>
+                   <span><strong>Do you need any assistance?</strong></span>
+                 </label>
+               </div>
+                          
+             </div>
+           </div>
+            
+            
+            
+           <div class="section">
+             <label for="comment" class="field-label"><strong>Anything else we should know about?</strong></label>
+             <label for="comment" class="field prepend-icon">
+               <textarea class="gui-textarea" id="comment" name="comment" placeholder="Let us know about any special requirements"></textarea>
+               <span class="field-icon"><i class="fa fa-comments"></i></span>
+               <span class="input-hint"> 
+                 <strong>Please:</strong> Be as descriptive as possible
+               </span>   
+             </label>
+            </div>
+            <div class="form-footer">
+              <button type="submit" class="button btn-primary">Confirm Booking</button>
+              <button type="reset" class="button">Cancel</button>
+            </div>
+             
+          </form>
+           
+        </div>
+      </div>
+      <div>
+        <!--button class ="btn"></button-->
+        <button type="button" class="btn btn-warning">Dark</button>
+      </div>
+      <script src ="app.js"></script>
+  </body>
+</html>

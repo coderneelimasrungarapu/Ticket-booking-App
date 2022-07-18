@@ -1,0 +1,38 @@
+body {
+  background-image:  url(background.jpg) ;
+  background-size: cover;
+  background-position: center;  
+  
+color: var(--fontColor);
+font-family: helvetica;
+}
+ .light-theme {
+
+--fontColor: var(--black);
+--btnBg: var(--black);
+--btnFontColor: var(--white);
+}
+.dark-theme {
+  --fontColor: var(--purple);
+  --btnBg: var(--white);
+--btnFontColor: var(--black);
+}
+:root {
+  --green: #00FF00;
+  --white: #FFFFFF;
+  --black: #000000;
+  --red: #FF0000;
+  --purple: #a151d6;
+  --orange: #ffa500;
+}
+.btn {
+position: absolute;
+top: 20px;
+right: 1250px;
+height: 50px;
+width: 50px;
+border-radius: 100%;
+border: none;
+color: var(--btnFontColor);
+background-color: var(--btnBg);
+}
